@@ -73,4 +73,7 @@ const videoData = [
     }
 ];
 
-const filter_names = videoData.filter(obj => obj.present === true ).map()
+const filter_suspects = videoData.filter(suspect => suspect.present === true )
+const suspects_names = filter_suspects.map(function(suspect) {
+	return suspect.name
+})
