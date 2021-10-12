@@ -9,5 +9,5 @@ doMathSoIdontHaveTo(4, increment)
 
 var increment = (n) => n + 1
 var square = (n) => n * n
-doMathSoIdontHaveTo = (n, func) => func(n)
+doMathSoIdontHaveTo = (n, funct) => funct(n)
 
